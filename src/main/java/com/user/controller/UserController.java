@@ -23,7 +23,7 @@ public class UserController {
 	@Autowired
 	private  RestTemplate restTemplate;
 	
-	@GetMapping("/displayall")
+	@GetMapping("/display")
 	public String display() {
 		return "Inside Controller";
 	}
