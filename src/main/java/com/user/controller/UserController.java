@@ -25,7 +25,7 @@ public class UserController {
 	
 	@GetMapping("/displayall")
 	public String display() {
-		return "hey there";
+		return "Inside Controller";
 	}
 	
 	@GetMapping("/{userId}")
